@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.exam_container {
+  width: 100dvw;
+  height: 100dvh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  text-align: center;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.examQuestionandAnswerWrapper {
+  
+  width: 70%;
+
+  margin: 20px auto;
+  padding: 10px;
+  background: rgb(168,164,231);
+  background: linear-gradient(90deg, rgba(168,164,231,1) 0%, rgba(225,240,252,1) 61%, rgb(200, 205, 207) 100%);
+  border-radius: 30px;
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 2px 63px 7px rgba(168,159,168,1);
+ 
+}
+
+
+.QuestionWrapper {
+  width: 90%;
+  border:1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  margin: 20px auto;
+  display: flex;
+  text-align: left;
+  backdrop-filter: blur(250px);
+  gap:15px;
+  padding: 10px 20px;
+  flex-direction: column;
+}
+
+
+.Submit {
+  padding: 20px 25px;
+  border: 1px solid transparent;
+  outline: transparent;
+  border-radius: 10px;
+  
+  background-image: linear-gradient(lightgreen, lightblue);
+  box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
+  margin-bottom: 2rem;
+
+}
+
+.clicked {
+  animation: clickOnBtn .5s linear;
+  transition: transform .5s ease;
+  
+}
+
+@keyframes clickOnBtn {
+  0%, 100% {
+    transform: scale(1); 
+  }
+
+  50% {
+    transform: scale(0.96);
+  }
+}

@@ -1,0 +1,49 @@
+.AdminContainer {
+    /* width: 100dvw; */
+    height: 100dvh;
+   
+    /* background-image: linear-gradient(45deg, lightgreen, lightblue); */
+
+}
+
+.sideBarMenu {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.listmenuSidebar {
+    /* border:1px solid black; */
+    text-transform: capitalize;
+    margin: 20px auto;
+    list-style-type: none;
+
+}
+.listmenuSidebar > a {
+ 
+    display: block;
+    padding: 15px ;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color: rgba(179, 219, 219,0.5);
+    cursor: pointer;;
+  
+
+}
+
+.listmenuSidebar > a:hover {
+    background-color: rgba(179, 219, 219,1);
+}
+
+.mainContent {
+    padding-top: 50px;
+    width: 80%;
+    height: 100%;  
+    overflow-y: auto;
+    
+}
+
+
+
+
